@@ -1,0 +1,13 @@
+import java.util.HashMap;
+
+public class HashingExample {
+    public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("apple", 3);
+        map.put("banana", 5);
+
+        System.out.println(map.get("apple")); 
+        System.out.println(map.containsKey("banana")); 
+    }
+}
+
